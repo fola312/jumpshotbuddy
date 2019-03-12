@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
 
-class App extends Component {
+
+class Contact extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+            <h1>
+                Contact Page
+            </h1>
         </header>
       </div>
     );
   }
 }
 
-export default App;
+export default Contact;
