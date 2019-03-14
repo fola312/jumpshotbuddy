@@ -6,6 +6,7 @@ import About from './About';
 import Header from './Header';
 import Contact from './Contact';
 import FeaturesPage from './Feature';
+import Court from './court';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <div>
           <Header />
           <FeaturesPage />
+          <Court />
           <Route path exact="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
