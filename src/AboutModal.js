@@ -26,7 +26,7 @@ render() {
           </MDBModalBody>
           <MDBModalFooter>
             <MDBBtn color="secondary" onClick={this.toggle(14)}>Close</MDBBtn>
-            <MDBBtn color="primary">Save changes</MDBBtn>
+            <MDBBtn color="primary">Save chanzges</MDBBtn>
           </MDBModalFooter>
         </MDBModal>
       </MDBContainer>
