@@ -1,0 +1,21 @@
+ /* .menu-ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu-ul li{
+    display: inline-block;
+    margin-left: 10px;
+} */
+
+
+.header{
+    background-image: url(./images/court2.jpg);
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+} 
+
+
+/* style="background-image: url(http://mrmrs.github.io/photos/u/011.jpg)";
+style="fill:currentcolor" */
