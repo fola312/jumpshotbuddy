@@ -7,13 +7,23 @@
 } 
 
 
-.MDBContainer{
-    background-image: url(./images/basketball.jpg);
-    
-}
+
 
 .ballicons{
     width: 100%;
     max-width: 50px;
     height: auto;
 }
+
+/* .row > div {
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+  } */
+
+  .container{
+    
+      
+  }

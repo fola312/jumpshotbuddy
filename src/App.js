@@ -6,10 +6,26 @@ import About from './About';
 import Header from './Header';
 import Contact from './Contact';
 import FeaturesPage from './Feature';
+import ShotSelector from './ShotPosition';
 import Court from './court';
+import StatTracker from './StatTracker';
+import ShotPosition from './ShotPosition';
+
+
+
 
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      shotPosition: '',
+      shotsMade: '',
+
+    }
+  }
+
+
   render() {
     return (
       <Router>
@@ -17,6 +33,7 @@ class App extends Component {
           <Header />
           <FeaturesPage />
           <Court />
+          <StatTracker />
           <Route path exact="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
