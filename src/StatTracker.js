@@ -1,8 +1,9 @@
 import React, { Component }  from "react";
+import {MDBBtnGroup} from "mdbreact"
 import ShotType from './ShotType';
 import ShotsMade from "./ShotsMade";
-import {MDBBtnGroup} from "mdbreact";
 import ShotPosition from "./ShotPosition";
+
 
 var sam = 5;
 var dice = 7;
@@ -15,13 +16,13 @@ class StatTracker extends Component {
 
 
       return (
-      <div className="tc" >
+      <div class="tc" >
         <MDBBtnGroup>
-          <ShotPosition/>
-          <ShotType/>
-          <ShotsMade/>
+          <ShotPosition />
+          <ShotType />
+          <ShotsMade />
         </MDBBtnGroup>
-        
+
         <h1>{stat}</h1>
         <h1> Overall Stats FG% FT% TS%</h1>
       </div> 

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import './App.css';
 import Home from './Home';
 import About from './About';
 import Header from './Header';
 import Contact from './Contact';
 import FeaturesPage from './Feature';
-import ShotSelector from './ShotPosition';
+
 import Court from './court';
 import StatTracker from './StatTracker';
-import ShotPosition from './ShotPosition';
+
 
 
 

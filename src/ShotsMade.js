@@ -13,7 +13,7 @@ class ShotsMade extends Component {
           <MDBDropdownItem>1</MDBDropdownItem>
           <MDBDropdownItem>2</MDBDropdownItem>
           <MDBDropdownItem>3</MDBDropdownItem>
-          <MDBDropdownItem>4</MDBDropdownItem>
+          <MDBDropdownItem active >4</MDBDropdownItem>
           <MDBDropdownItem>5</MDBDropdownItem>
           <MDBDropdownItem>7</MDBDropdownItem>
           <MDBDropdownItem>9</MDBDropdownItem>
