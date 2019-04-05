@@ -7,7 +7,7 @@ import Header from './Header';
 import Contact from './Contact';
 import FeaturesPage from './Feature';
 
-import Court from './court';
+import Court from './Court';
 import StatTracker from './StatTracker';
 
 
