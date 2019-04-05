@@ -29,7 +29,7 @@ class ShotPosition extends Component {
               <MDBDropdownItem>2</MDBDropdownItem>
               <MDBDropdownItem>3</MDBDropdownItem>
               <MDBDropdownItem>4</MDBDropdownItem>
-              <MDBDropdownItem>5</MDBDropdownItem>
+              <MDBDropdownItem active>5</MDBDropdownItem>
               <MDBDropdownItem>6</MDBDropdownItem>
               <MDBDropdownItem>7</MDBDropdownItem>
               <MDBDropdownItem>ALL</MDBDropdownItem>

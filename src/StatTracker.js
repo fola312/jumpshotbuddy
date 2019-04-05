@@ -8,7 +8,7 @@ import ShotPosition from "./ShotPosition";
 var sam = 5;
 var dice = 7;
 
-var stat = (sam * dice)
+var stat = ((sam * dice) + '%')
 
 
 class StatTracker extends Component {
