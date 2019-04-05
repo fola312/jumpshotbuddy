@@ -12,7 +12,7 @@ class ShotType extends Component {
           <MDBDropdownItem>Set Shot</MDBDropdownItem>
           <MDBDropdownItem>Jumpshot</MDBDropdownItem>
           <MDBDropdownItem>Fade Away</MDBDropdownItem>
-          <MDBDropdownItem active >Fade Left</MDBDropdownItem>
+          <MDBDropdownItem >Fade Left</MDBDropdownItem>
           <MDBDropdownItem>Fade Right</MDBDropdownItem>
           <MDBDropdownItem>Floater</MDBDropdownItem>
         </MDBDropdownMenu>

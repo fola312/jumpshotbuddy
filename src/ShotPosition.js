@@ -1,8 +1,5 @@
-
-  import React, { Component } from "react";
+import React, { Component } from "react";
 import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
-
-
 
 
 class ShotPosition extends Component {
@@ -12,10 +9,7 @@ class ShotPosition extends Component {
       isActive: false
     };
   }
-  handleToggle = () => {
-    const { isActive } = this.state;
-    this.setState({ isActive: !isActive });
-  };
+
    render() {
     return (
       <div className=''>   
@@ -25,10 +19,13 @@ class ShotPosition extends Component {
             </MDBDropdownToggle>
             <MDBDropdownMenu basic color="info">
               <MDBDropdownItem onClick={() => {
-  this.setState((state) => ({
-    isActive: !state.isActive
-}))}}
-        className={this.state.isActive ? "Active" : ""} >1</MDBDropdownItem>
+                this.setState((state) => ({
+                  isActive: !state.isActive
+                }))
+              }}
+              active={this.state.isActive} >
+               1
+              </MDBDropdownItem>
               <MDBDropdownItem>2</MDBDropdownItem>
               <MDBDropdownItem>3</MDBDropdownItem>
               <MDBDropdownItem>4</MDBDropdownItem>
