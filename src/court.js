@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import bcourt from './images/CourtBall.jpg'
 
-class Court extends Component {
+class Court2 extends Component {
   render() {
     return (
       <MDBContainer className="mt-5">
@@ -16,4 +16,4 @@ class Court extends Component {
   }
 }
 
-export default Court;
+export default Court2;

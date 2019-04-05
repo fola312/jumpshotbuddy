@@ -7,7 +7,7 @@ import Header from './Header';
 import Contact from './Contact';
 import FeaturesPage from './Feature';
 
-import Court from './Court';
+import Court2 from './Court';
 import StatTracker from './StatTracker';
 
 
@@ -32,7 +32,7 @@ class App extends Component {
         <div>
           <Header />
           <FeaturesPage />
-          <Court />
+          <Court2 />
           <StatTracker />
           <Route path exact="/" component={Home} />
           <Route path="/about" component={About} />
