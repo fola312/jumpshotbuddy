@@ -3,12 +3,12 @@ import { MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from
 
 
 class ShotPosition extends Component {
-  constructor (props) {
-    super(props);
-    this.state = {
-      isActive: false
-    };
-  }
+  // constructor (props) {
+  //   super(props);
+  //   this.state = {
+  //     isActive: false
+  //   };
+  // }
 
    render() {
     return (
@@ -18,21 +18,20 @@ class ShotPosition extends Component {
               Spot
             </MDBDropdownToggle>
             <MDBDropdownMenu basic color="info">
-              <MDBDropdownItem onClick={() => {
+              {/* <MDBDropdownItem onClick={() => {
                 this.setState((state) => ({
                   isActive: !state.isActive
                 }))
               }}
               active={this.state.isActive} >
                1
-              </MDBDropdownItem>
-              <MDBDropdownItem>2</MDBDropdownItem>
+              </MDBDropdownItem> */}
+              <MDBDropdownItem className='normal'>2</MDBDropdownItem>
               <MDBDropdownItem>3</MDBDropdownItem>
               <MDBDropdownItem>4</MDBDropdownItem>
-              <MDBDropdownItem active>5</MDBDropdownItem>
+              <MDBDropdownItem>5</MDBDropdownItem>
               <MDBDropdownItem>6</MDBDropdownItem>
               <MDBDropdownItem>7</MDBDropdownItem>
-              <MDBDropdownItem>ALL</MDBDropdownItem>
             </MDBDropdownMenu>
           </MDBDropdown>
    </div>
